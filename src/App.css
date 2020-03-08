@@ -1,0 +1,11 @@
+body {
+  /* So it doesn't show margins and horizontal scroll bar in IE11+ */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+main{
+  /* So it is moved down, not being hidden by the header */
+  margin-top: 5rem;
+}
